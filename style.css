@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat:wght@600&family=Pacifico&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Inter:wght@100&family=Montserrat:wght@600&family=Pacifico&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Inter:wght@100&family=Montserrat:wght@600&family=PT+Sans&family=Pacifico&family=Rubik:wght@300&display=swap');
+
+*{
+    /* background-color: #E9FAFC; */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#E9FAFC ;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #8485A1;
+}
+
+.brand-title{
+    font-size: 1.5rem;
+    margin: 3rem;
+    margin-left: 7%;
+    font-weight: 1000;
+}
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.navbar-links li{
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: #8485A1;
+    padding: 3rem;
+    display: block;
+
+}
+
+.logo{
+color: #ED7B44;
+font-weight: 1000;
+margin-left: 7%;
+}
+
+h1{
+    margin-left: 7%;
+    font-weight: 900 ;
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+}
+
+h4{
+    margin-left: 7%;
+    color: #9C9FB6;
+    font-family: 'Asap', sans-serif;
+    font-size: 20px;
+}
+
+.button1{
+    margin-left: 7%;
+    padding: 10px;
+    width: 15%;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #1AA0AB;
+    border: none;
+}
+
+.play i{
+    color: #1aa0ab;;
+    font-size: 30px;
+    margin-left: 23%;
+    
+}
+.play{
+    margin-top: -32px;
+}
+
+.circle1{
+    border: 2px solid #CFE4E7;
+    width: 400px;
+    height: 350px;
+    margin-left: 60%;
+    margin-top: -300px;
+    border-width: 50px;
+    border-radius: 50%;
+  
+}
+
+.img{
+    margin-left: 70%;
+    margin-top: -400px;
+     
+}
+
+h2{
+    margin-left: 7%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
+}
+
+.section2{
+    background-color: #F7FEFF;
+
+}
+
+.words{
+    color: #9293AD;
+    margin-left: 80%;
+    margin-top: -100px;
+    padding: 15px;
+}
+  
+
+.column{
+    float: left;
+    margin: 12px;
+    width: 30%;
+    height: 300px;
+    background-color: #fff;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+
+.word{
+    margin-left: 10%;
+    margin-top: 100px;
+}
+
+.icon{
+    color: #6EBFC8;
+}
+
+.word1{
+    color: #696871;
+    font-weight: bold;
+}
+
+.sec3{
+    background-color: #E9FAFC;
+    margin-top: 60%;
+
+}
+
+.img2{
+    margin-left: 10%;
+   
+}
+
+.heading{
+    margin-left: 40%;
+    color: #313040;
+    margin-top: -50%;
+}
+
+.p1{
+    color: #9CA2B8;
+    margin-left: 8%;
+    font-size: 20px;
+}
+
+.sec4{
+    background-color: #F8FEFF;
+     margin-top: 10%; 
+}
+.contain{
+    display: flex;
+    margin-left: -250%;
+
+}
+
+.contain  .column{
+    width: 900px;
+    
+}
+
+.heading2{
+    margin-top: -40%;
+}
+
+.p2{
+    color: #9B9BB4;
+    margin-left: 70%;
+    margin-top: -8%;
+}
+.icon1{
+    color: #EABE46;
+}
+.heading3{
+    color: #090809;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sentence{
+    color: #9B9BB4;
+}
+
+.contain{
+    margin-left: 10%;
+}
+
+.images{
+    display: flex;
+    margin: 10px;
+    margin-left: 5%;
+    padding: 5px;
+}
+
+.sec5{
+    background-color: #F8FEFF;
+
+}
+
+.head{
+    margin-top: 6%;
+    margin-left: 20%;
+    height: 200px;
+    width: 800px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E9FAFC;
+    
+}
+.holder input{
+    margin: 5%;
+    width: 50%;
+    height: 55px;
+    margin-left: 20%;
+    margin-top: -80%;
+    font-size: 25px;
+    border-radius: 6px;
+    border: none;
+}
+
+.head h2{
+    margin-left: 21%;
+} 
+
+.footer{
+    display: flex;
+}
+.all{
+    display: flex;
+
+}
+
+.part1{
+    margin-left:15%;
+}
+.part1 h3{
+    font-family: 'Asap', sans-serif;
+    color:#53535E;
+    font-weight: bold;
+}
+.part1 p{
+   color: #C0C1D0;
+}
+    
+.part2{
+    margin-left: 15%;
+}
+.part2 h3{
+    color:#53535E;
+    font-weight: bold;
+    font-family: 'Asap', sans-serif;
+}
+.part2 p{
+   color: #C0C1D0; 
+   
+}
+.part3 {
+    margin-left:17%;
+}
+.part3 h3{
+    color:#53535E;
+    font-weight: bold;
+    font-family: 'Asap', sans-serif;
+}
+.part3  p{
+   color: #C0C1D0; 
+}
+
+.part4{
+    margin-left: 15%;
+}
+
+.part4 h3{
+    color:#C0C1D0;
+    font-weight: bold;
+    font-family: 'Asap', sans-serif;
+}
+.part4 p{
+   color: #C0C1D0; 
+   
+}
